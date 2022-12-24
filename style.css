@@ -4,31 +4,73 @@
 
 }
 
+
 #logo{
-    width:5%;
-    height: 5%;
+   
+    padding-top: 20px;
+    width: 114.42px;
+    height: 33px;
+  
 }
 
 nav{
-    width: auto;
-    height: 500px;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 2px 3px 1.5px 0;
-    background-color:rgb(255, 255, 180);
-
+    position: absolute;
+    width: 1440px;
+    height: 740px;
+    left: 130px;
+    top:10px;
+    background: rgb(247, 247, 193);
 }
 
 .left-menu{
-    
-    gap: 5px;
-   
-}
-
-.left-menu a{
-    text-decoration: none;
+    padding-top: 20px;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
 
 }
+.left-menu a{
+    font-size: 25px;
+    font-weight: 400px;
+    width: 467px;
+    height: 21px;
+
+    flex:none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none; 
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#frame1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 568px;
+    height: 412px;
+    left: 130px;
+    top: 200px;
+}
+
+#frame2{
+    position: absolute;
+    width: 666.28px;
+    height: 472px;
+    left: 698px;
+    top: 229px;
+    
+}
+
+
+
 
