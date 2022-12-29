@@ -5,6 +5,7 @@
 }
 
 
+
 #logo{
    
    
@@ -255,4 +256,46 @@ h5{
     gap: 30px;
 }
 
+#frame5{
 
+    position: absolute;
+    width: 1440px;
+    height: 759px;
+    top: 2463px;
+    left: 0px;
+
+    background: rgb(247, 247, 193);
+
+}
+
+#frame5a{
+    width: 750px;
+    height: 123px;
+    padding-left: 70px;
+    size: 48px;
+    line-height: 60px;
+
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #1e1f38;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#frame5b{
+    width: 319px;
+    height: 37px;
+    top: 143px;
+    padding-left: 70px;
+    
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 122.5%;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
